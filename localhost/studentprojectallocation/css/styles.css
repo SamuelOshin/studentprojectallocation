@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-size: .875rem;
+  font-weight: 0;
+}
+
+.navbar-brand{
+font-size: 1em;
+}
+
+
+.card{
+  padding: 30px;
+}
+
+.login-card{
+  /* width: 40%; */
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.card{
+  
+margin:0 auto;
+}
+#logout{
+  display: flex;
+  align-items: end;
+}
+
+.title-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table-responsive{
+padding: 20px;
+/* border-width: medium; */
+}
+
+.dashboard-content{
+padding: 10px;
+}
+
+.navbar-nav a.active {
+background-color: #06305a; /* Set the background color for the active item */
+color: #fff; /* Set the text color for the active item */
+}
+
+
+.project_table {
+  font-size: 12px; /* Adjust the font size to your preference */
+}
+
+.project_table th,
+.project_table td {
+  padding: 5px; /* Adjust the padding for table headers and cells */
+}
+
+.project_table thead th {
+  background-color: #a19b9b; /* Optional: Change the background color of table headers */
+}
+
+
+.nav-tabs{
+  justify-content: center;
+}
+
+#project_title{
+  font-size: 1.5em;
+  /* font-weight: bold; */
+  color: rgb(64 65 178);
+  text-align: center;
+}
+
+.btntext{
+  font-size: 1.5em;
+  font-weight: bold;
+  color:rgb(240, 232, 232);
+  text-align: center;
+}
+.content{
+  border-radius: 10px;
+  border-left: #010911;
+}

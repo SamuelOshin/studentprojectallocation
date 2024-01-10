@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .navbar {
+    font-size: .875rem;
+    font-weight: 0;
+  }
+
+  .navbar-brand{
+font-size: 1em;
+  }
+
+
+  .card{
+    padding: 30px;
+  }
+
+  .login-card{
+    /* width: 40%; */
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+  .card{
+    
+margin:0 auto;
+  }
+  #logout{
+    display: flex;
+    align-items: end;
+  }
+
+.title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table-responsive{
+  padding: 20px;
+  /* border-width: medium; */
+}
+
+.dashboard-content{
+  padding: 10px;
+}
+
+.navbar-nav a.active {
+  background-color: #06305a; /* Set the background color for the active item */
+  color: #fff; /* Set the text color for the active item */
+}
+
+
+.project_table {
+    font-size: 12px; /* Adjust the font size to your preference */
+  }
+
+.project_table th,
+.project_table td {
+    padding: 5px; /* Adjust the padding for table headers and cells */
+  }
+
+.project_table thead th {
+    background-color: #a19b9b; /* Optional: Change the background color of table headers */
+  }
+
+
+  .nav-tabs{
+    justify-content: center;
+  }
+
+  .profile_cont{
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .profile-inct{
+    inset: 1px 1px 2px 0 #e8ebee;
+    border-radius: 6px 6px 0px 0px;
+    background-color: #f8f8f8;
+  }
+
+  .prof-Head{
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #464db1;
+  }
+
+  .details-my{
+    padding: 30px;
+    display: flex;
+  }
+  .student_details{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    width: 100%;
+  }
+  .student_avatar{
+    display: flex;
+    height: 250px;
+    padding: 20px;
+    flex-direction: column;
+  }
+  .avatar_img{
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .proImg{
+    height: 190px;
+    width: 100%;
+    border-radius: 50%;
+  }
+  .profile_info{
+    width: 70%;
+  }
+  .formdetails{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .formlabel{
+    margin-bottom: 6px;
+  }
+.signfcase{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+#sname{
+  background-color: #f0f1ff;
+  border: 1px solid #a7c0f5;
+  border-radius: 5px;
+  height: 42px;
+  font-weight: 600;
+  padding: 0.375rem 0.75rem;
+}
+
+::placeholder{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.form-control{
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  background-color: #f0f1ff;
+  border: 1px solid #a7c0f5;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 0.375rem 0.75rem;
+  min-width: 100px;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sectionHeader{
+  margin-bottom: 30px;
+  padding-left: 2px;
+}
+
+/**GEnerate Div8*/
+.gen-Head{
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #464db1;
+}
+.projectGenCont{
+  padding: 30px;
+  display: flex;
+  gap: 100px;
+}
+.generatBtnp{
+  height: 50px;
+  width: 170px;
+  border-radius: 10px;
+  border: 1px solid #f0f1ff;
+  cursor: pointer!important;
+  margin-top: 20px;
+}
+
+.generatBtnp:hover{
+  background-color: #3459e6;
+  color: white;
+}
+.signfArea{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.formArea{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media only screen and (max-width: 1200px){
+  .student_details{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .profile_info {
+    width: 100%;
+}
+.signfArea{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.formArea{
+  width: 100%;
+}
+.form-control{
+  margin: 0;
+}
+}
+
+@media only screen and (max-width: 767px){
+  .projectGenCont{
+    flex-direction: column;
+    align-items: center;
+  }
+  .getStartedHd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 569px){
+  .signfcase{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .formdetails{
+    width: 100%;
+  }
+}
+
+#assigned_project_title{
+  color:#464db1;
+}
